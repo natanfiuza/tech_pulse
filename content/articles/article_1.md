@@ -1,7 +1,7 @@
 -- Title: Inteligência Artificial: Revolução Tecnológica
 -- Author: Nataniel Fiuza
 -- Date: 2024-12-25
--- ImageSrc: /assets/img/artigo_card_2.jpeg
+-- ImageSrc: /assets/img/artigo_card_1.jpeg
 -- ImageAlt: Revolução Tecnológica
 -- Content:
 
