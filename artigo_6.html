@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/article.css" />
+    <script src="/assets/js/article.js"></script>
+    <title>- NatanFiuza.dev</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="logo">NatanFiuza.dev</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Artigos</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+
+    <article class="article-container">
+      <header class="article-header">
+        <h1 id="article-title"></h1>
+        <div class="article-meta">
+          <span>Por <span id="article-author"></span> | <span id="article-date"></span></span>
+          <span>Tempo de leitura: <span id="reader-time"></span> min</span>
+        </div>
+      </header>
+
+      <img
+        src=""
+        alt=""
+        class="article-image"
+        id="article-image"
+      />
+
+      <div class="article-content" id="article-content"></div>
+
+      <section class="author-bio">
+        <img
+          src="/assets/img/natanfiuza.jpeg"
+          alt="Maria Silva"
+          class="author-avatar"
+        />
+        <div>
+          <h3>Nataniel Fiuza</h3>
+          <p>
+            Desenvolvedor sênior com vasta experiência em PHP, Laravel,
+            JavaScript e Python. Especialista em banco de dados, com domínio de
+            MariaDB e Microsoft SQL Server, ele é conhecido por sua habilidade
+            em otimizar sistemas de alto desempenho e implementar boas práticas
+            de programação, como Código Limpo e arquitetura SOLID.
+          </p>
+        </div>
+      </section>
+
+      <section class="related-articles">
+        <h3>Artigos Relacionados</h3>
+        <div class="related-cards">
+          <div class="related-card">
+            <img src="/assets/img/artigo_machine_learning_fundamentos.png" alt="Machine Learning" />
+            <h4>Machine Learning: Fundamentos</h4>
+            <a href="artigo_2.html">Leia Mais</a>
+          </div>
+          <div class="related-card">
+            <img
+              src="/assets/img/artigo_etica_inteligencia_artificial.jpeg"
+              alt="Ética em IA"
+            />
+            <h4>Ética na Inteligência Artificial</h4>
+            <a href="artigo_3.html">Leia Mais</a>
+          </div>
+          <div class="related-card">
+            <img src="/assets/img/ia_mercado_financeiro.jpeg" alt="IA no Mercado" />
+            <h4>IA no Mercado Financeiro</h4>
+            <a href="#">Leia Mais</a>
+          </div>
+        </div>
+      </section>
+    </article>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      load_article("/content/articles/article_6.md");
+    </script>
+  </body>
+</html>
